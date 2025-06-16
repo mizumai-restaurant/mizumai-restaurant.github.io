@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speisekarte</title>
+  <link rel="stylesheet" href="https://pages.mizumai.de/menu/menu.css">
+</head>
 <body>
-<div class="image-gallery">
-  <img src="https://pages.mizumai.de/menu/media/1.png" alt="Image 1">
-  <img src="https://pages.mizumai.de/menu/media/2.png" alt="Image 2">
-  <img src="https://pages.mizumai.de/menu/media/3.png" alt="Image 3">
-  <img src="https://pages.mizumai.de/menu/media/4.png" alt="Image 4">
-  <img src="https://pages.mizumai.de/menu/media/5.png" alt="Image 5">
-  <img src="https://pages.mizumai.de/menu/media/6.png" alt="Image 6">
-  <img src="https://pages.mizumai.de/menu/media/7.png" alt="Image 7">
-  <img src="https://pages.mizumai.de/menu/media/8.png" alt="Image 8">
-  <img src="https://pages.mizumai.de/menu/media/9.png" alt="Image 9">
-  <img src="https://pages.mizumai.de/menu/media/10.png" alt="Image 10">
-  <img src="https://pages.mizumai.de/menu/media/11.png" alt="Image 11">
-  <img src="https://pages.mizumai.de/menu/media/12.png" alt="Image 12">
-  <img src="https://pages.mizumai.de/menu/media/13.png" alt="Image 13">
-  <img src="https://pages.mizumai.de/menu/media/14.png" alt="Image 14">
-  <img src="https://pages.mizumai.de/menu/media/15.png" alt="Image 15">
-  <img src="https://pages.mizumai.de/menu/media/16.png" alt="Image 16">
+<div class="menu-container">
+  <div class="tabs">
+    <button data-category="vorspeise" class="active">Vorspeise</button>
+    <button data-category="warm">Warme Gerichte</button>
+    <button data-category="sushi">Sushi</button>
+    <button data-category="dessert">Dessert</button>
+    <button data-category="drinks">Getränke</button>
+  </div>
+
+  <div class="image-gallery">
+    <img src="https://pages.mizumai.de/menu/media/2.png" data-category="vorspeise" alt="Vorspeise 1">
+    <img src="https://pages.mizumai.de/menu/media/3.png" data-category="vorspeise" alt="Vorspeise 2">
+
+    <img src="https://pages.mizumai.de/menu/media/4.png" data-category="warm" alt="Warm 1">
+    <img src="https://pages.mizumai.de/menu/media/5.png" data-category="warm" alt="Warm 2">
+    <img src="https://pages.mizumai.de/menu/media/6.png" data-category="warm" alt="Warm 3">
+
+    <img src="https://pages.mizumai.de/menu/media/8.png" data-category="sushi" alt="Sushi 1">
+    <img src="https://pages.mizumai.de/menu/media/9.png" data-category="sushi" alt="Sushi 2">
+    <img src="https://pages.mizumai.de/menu/media/10.png" data-category="sushi" alt="Sushi 3">
+
+    <img src="https://pages.mizumai.de/menu/media/15.png" data-category="dessert" alt="Dessert 1">
+
+    <img src="https://pages.mizumai.de/menu/media/12.png" data-category="drinks" alt="Drinks 1">
+    <img src="https://pages.mizumai.de/menu/media/13.png" data-category="drinks" alt="Drinks 2">
+    <img src="https://pages.mizumai.de/menu/media/14.png" data-category="drinks" alt="Drinks 3">
+  </div>
 </div>
+
+<script src="https://pages.mizumai.de/menu/menu.js"></script>
 </body>
 </html>
