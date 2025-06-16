@@ -12,7 +12,7 @@
     document.head.appendChild(link);
 
     const script = document.createElement('script');
-    script.src = 'https://pages.mizumai.de/menu/menu.js';
+    script.src = 'https://pages.mizumai.de/menu/menu.js?v=0.1';
     document.body.appendChild(script);
   } catch (err) {
     console.error('Failed to load menu:', err);
